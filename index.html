@@ -9,19 +9,25 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
-
+  <div class="container">
+    <h1>Give me three side lengths for a triangle</h1>
+    <form id="triangle">
+      <label for="side1">Side 1</label>
+      <input required="true" id="side1" type="number">
+      <label for="side2">Side 2</label>
+      <input required="true" id="side2" type="number">
+      <label for="side3">Side 3</label>
+      <input required="true" id="side3" type="number">
+      <button type="submit" class="btn">Tell me about my triangle!!!</button>
+    </form>
+  </div>
+  <div class="container" id="result">
+    <img class="isosceles" src="img/isosceles.png" />
+    <h2 class="isosceles">You gave me an isosceles triangle!<h2>
+    <img class="equilateral" src="img/equilateral.png" />
+    <h2 class="equilateral">You gave me an equilateral triangle!<h2>
+    <img class="scalene" src="img/scalene.jpg" />
+    <h2 class="scalene">You gave me an scalene triangle!<h2>
+  </div>
 </body>
-<h1>Give me three side lengths for a triangle</h1>
-
-<form id="triangle">
-  <label for="side1">Side 1</label>
-  <input id="side1" type="number">
-  <label for="side2">Side 2</label>
-  <input id="side2" type="number">
-  <label for="side3">Side 3</label>
-  <input id="side3" type="number">
-  <button type="submit" class="btn">Tell me about my triangle!!!</button>
-</form>
-
-
 </html>
